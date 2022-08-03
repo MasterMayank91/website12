@@ -1,0 +1,52 @@
+/*
+    Mayank All Right Reservied
+    Website 12 "Accession"
+    CSS: style/style 2
+*/
+
+#experiance
+{
+    padding: 1rem 3rem;
+    background:linear-gradient(var(--clr-d),var(--clr-b));
+}
+#experiance h2::first-letter
+{
+    color:var(--clr-m);
+}
+#experiance h2
+{
+    color:var(--clr-w);
+    padding: 1rem;
+    border-bottom: 3px solid var(--clr-m);
+}
+h4
+{
+    color:var(--clr-w);
+}
+p
+{
+    color:var(--clr-x);
+}
+::marker
+{
+    color:var(--clr-m);
+}
+#experiance > ul
+{
+    padding-top:1rem ;
+    columns: 2;
+}
+#experiance > ul li
+{
+    list-style-type:none;
+}
+#experiance > ul li > ul 
+{
+    padding: 1rem;
+}
+#experiance > ul li > ul li
+{
+    list-style-type: circle;
+    color:var(--clr-w);
+    line-height: 25px;
+}

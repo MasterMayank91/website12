@@ -1,0 +1,51 @@
+/*
+    Mayank All Right Reservied
+    Website 12 "Accession"
+    CSS: style/style3
+*/
+#service
+{
+    background:var(--clr-x);
+    padding: 1rem;
+}
+#service h2
+{
+    text-align: center;
+    color:var(--clr-d);
+    padding: 1rem;
+}
+#service > div
+{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+#service .serve
+{
+    margin:1rem;
+    width:200px;
+    height: auto;
+    text-align: center;
+    background:var(--clr-f);
+    box-shadow: 3px 3px 5px var(--clr-l);
+}
+#service .serve:hover
+{
+    box-shadow: 6px 6px 10px var(--clr-d);
+}
+#service .serve h3
+{
+    padding: 1rem;
+    color: var(--clr-m);
+}
+#service .serve img
+{
+    width: 100px;
+    height: auto;
+    object-fit: contain;
+}
+#service .serve p
+{
+    padding: 1rem;
+    color:var(--clr-l);
+}

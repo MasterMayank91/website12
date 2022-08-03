@@ -1,0 +1,53 @@
+/*
+    Mayank All Right Reservied
+    Website 12 "Accession"
+    CSS: style/styel1
+*/
+#introduce
+{
+    padding: 3rem 5rem;
+    background:linear-gradient(var(--clr-m),var(--clr-b));
+    position: relative;
+}
+#introduce h1
+{
+    font: 50px 'old english text mt';
+    color:var(--clr-d);
+}
+#introduce p
+{
+    width: auto;
+    color:var(--clr-x);
+    padding: 3rem;
+    line-height:25px;
+}
+#introduce .link_btn::first-letter
+{
+    color: var(--clr-m);
+    font-size:auto;
+    transition:all linear 1s;
+}
+#introduce .link_btn
+{
+    display: inline-block;
+    padding: 1rem 3rem;
+    font-size: 18px;
+    color:var(--clr-w);
+    background: var(--clr-d);
+}
+#introduce .link_btn:hover
+{
+    background: var(--clr-l);
+    box-shadow: 2px 2px 5px var(--clr-b);
+}
+.copyright
+{
+    float: right;
+    text-align:center;
+    margin:25vh 4rem;
+    width: 250px;
+    border-top: 5px solid var(--clr-d);
+    border-bottom: 5px inset var(--clr-d);
+    padding: 1rem 3rem;
+    color:var(--clr-w);
+}

@@ -1,0 +1,63 @@
+/*
+    Mayank All Right Reservied
+    Website 12 "Accession"
+    CSS: style/style4
+*/
+#payment
+{
+    padding: 1rem 3rem;
+    background:rgba(0,0,0,0.5) url(../pic/h1.jpg) fixed no-repeat;
+    background-size: cover;
+    background-blend-mode:luminosity;
+}
+#payment h2
+{
+    width: 25%;
+    padding: 1rem;
+    color:var(--clr-b);
+    border-bottom:5px solid var(--clr-m);
+}
+#payment h2::first-letter
+{
+    color:var(--clr-m);
+    font-size: 2rem;
+}
+#payment p
+{
+    max-width: 500px;
+    padding: 1rem;
+    line-height: 25px;
+    color:var(--clr-b);
+}
+#payment .link_btn
+{
+    display: inline-block;
+    padding: 1rem 3rem;
+    color:var(--clr-w);
+    background: var(--clr-d);
+}
+#payment .link_btn:hover
+{
+    background: var(--clr-l);
+    box-shadow: 2px 2px 5px var(--clr-l);
+}
+#payment #note
+{
+    margin: 1rem 5rem;
+    padding: 1rem;
+    max-width: 450px;
+    font-size: 16px;
+    background: var(--clr-w);
+    border-radius: 1rem;
+    box-shadow: 3px 3px 5px var(--clr-l);
+}
+#payment b
+{
+    font-weight: bold;
+    line-height: 30px;
+    color:var(--clr-m);
+}
+#payment ol li
+{
+    padding:1rem 0.5rem;
+}

@@ -1,0 +1,62 @@
+/*
+    Mayank All Right Reservied
+    Website 12 "Accession"
+    CSS: style/styel5
+*/
+#contact form
+{
+    padding: 1rem;
+    margin:2rem auto;
+    width: 500px;
+    height: auto;
+    background: var(--clr-d);
+    box-shadow: 5px 5px 10px var(--clr-d);
+    display: grid;
+    grid-gap:2rem;
+}
+#contact form h2
+{
+    color:var(--clr-w);
+}
+#content form h2::first-letter
+{
+    color: var(--clr-m);
+}
+#contact form p
+{
+    line-height: 30px;
+    padding: 1rem 2rem;
+}
+#contact .fld
+{
+    padding: 1rem;
+    font-size: 18px;
+    width: 100%;
+    color:var(--clr-w);
+    background:var(--clr-d);
+    border:1px solid var(--clr-l);
+    border-radius: 1rem;
+}
+#contact .fld:focus
+{
+    border-color:var(--clr-w);
+}
+#contact form div:last-child
+{
+    display: flex;
+    justify-content: space-between;
+}
+#contact .btn
+{
+    width: 45%;
+    padding: 1rem;
+    font-size: 16px;
+    color: var(--clr-w);
+    background: var(--clr-d);
+    border: 2px solid var(--clr-l);
+    border-radius: 1rem;
+}
+#contact .btn:hover
+{
+    background: var(--clr-l);
+}

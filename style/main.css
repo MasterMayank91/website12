@@ -1,0 +1,110 @@
+/*
+    Mayank All Right Reservied
+    Website 12 "Accession"
+    CSS: style/main
+*/
+
+@import "style1.css";
+@import "style2.css";
+@import "style3.css";
+@import "style4.css";
+@import "style5.css";
+*
+{
+    margin:0;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans' , sans-serif;
+    color:var(--clr-b);
+    outline: none;
+    border:none;
+    user-select: none;
+    box-sizing: border-box;
+    text-decoration:  none;
+}
+body
+{
+    overflow: hidden;
+    width:100%;
+    height:100vh;
+    scroll-behavior: smooth;
+}
+:root
+{
+    --clr-d:#001120;
+    --clr-l:#112233;
+    --clr-m:#800;
+    --clr-f:#fff;
+    --clr-w:#eee;
+    --clr-x:#ccc;
+    --clr-b:#000;
+}
+main
+{
+    display: flex;
+}
+/*
+    aside style #34495E
+*/
+aside
+{
+    position:fixed;
+    display: inline-flex;
+    align-items: center;
+    min-width: 50px;
+    height: 100vh;
+    writing-mode:vertical-lr;
+    background:var(--clr-d);
+}
+aside #logo
+{
+    font-weight: bold;
+    font-size: 2rem;
+    color:var(--clr-m);
+}
+aside menu
+{
+    /* border:1px solid #eee;*/
+}
+aside a
+{
+    display: inline-block;
+    height: 20vh;
+    padding: 1rem;
+    text-align: center;
+    font-weight:bold;
+    letter-spacing: 1px;
+    color: var(--clr-w);
+}
+aside a:hover
+{
+    color:var(--clr-l);
+    background:var(--clr-w);
+}
+/*
+    frame style
+*/
+#frame
+{
+    margin-left: 50px;
+    width:calc(100vw - 50px);
+    display: grid;
+}
+.box
+{
+    width: 100%;
+    height: 100vh;
+}
+.box:nth-child(2), .box:nth-child(3), .box:nth-child(4)
+{
+    overflow-x:auto;
+}
+/*
+    Responsive
+*/
+@media screen and (max-width:1000px)
+{
+
+}
+@media screen and (max-width:850px)
+{
+
+}
